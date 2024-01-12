@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int x, y, sum;
+    int x, y;
     printf("Enter the two integer number: ", x, y);
     scanf("%d %d", &x, &y);
-    sum = x +y;
-    printf("Addition: %d\n", sum);
-    sum = x - y;
-    printf("Subtraction: %d\n", sum);
-    sum = x * y;
-    printf("Multiplication: %d\n", sum);
-    sum = x / y;
-    printf("Division: %d", sum);
+    printf("Addition: %d\n", x + y);
+    printf("Subtraction: %d\n", x - y);
+    printf("Multiplication: %d\n", x * y);
+    printf("Division: %d", x / y);
     return 0;
